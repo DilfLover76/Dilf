@@ -30,7 +30,7 @@ function playGame() {
         highScore = attempts;
         alert("New high score! Your current high score is " + highScore + " attempts.");
       }
-else {alert("The least attempts used " +highScore "attempts!")
+else {alert("The least attempts used " +highScore+ "attempts!")
 }
     }
   }

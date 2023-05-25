@@ -26,7 +26,7 @@ function playGame() {
     } else {
       alert("Congratulations! You guessed the correct number in " + attempts + " attempts!");
 
-      if (attempts < highScore) {
+      if (!highScore || attempts < highScore) {
         highScore = attempts;
         alert("New high score! Your current high score is " + highScore + " attempts.");
       }

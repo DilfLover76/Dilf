@@ -7,7 +7,7 @@ function playGame() {
   const targetNumber = generateRandomNumber(1, 100);
   let attempts = 0;
   let guessedNumber = 0;
-  let highScore = Infinity; // Initialize high score as infinity
+  let highScore =  9999; 
 
   while (guessedNumber !== targetNumber) {
     guessedNumber = parseInt(prompt("Guess a number between 1 and 100:"));
